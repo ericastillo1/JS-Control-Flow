@@ -27,14 +27,6 @@ const b = false;
 let c;
 const d = Infinity;
 
-/* Check: !false && true
-Check: false || true
-Check: a && a == b
-Check: !true || !false && !false
-Check: 8 > 1 && true || c
-Check: d > 489764654798731315465467 && true || false
-Check: 20 % 2 */
-
 console.log(!false && true); // true
 console.log(false || true); //true  
 /* with the || (or) only 1 side has to be true */
@@ -87,6 +79,20 @@ if (yourAge === 21) {
     console.log("You're allowed to buy beer");
 } else {
     console.log("You're not old enough to buy beer");
+};
+
+
+let newAge = 15;
+
+if (newAge >= 21) {
+    console.log("You're allowed to buy a beer");
+    if (newAge === 21) {
+        console.log("Wow, you just made it !");
+    };
+} else if (newAge <= 15 && newAge > 5) {
+    console.log("Where are your parents");
+} else {
+    console.log("You're not old enough to buy beet");
 };
 
 /* Loops */ console.log("Practice Loops");
