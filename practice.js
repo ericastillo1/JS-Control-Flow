@@ -111,9 +111,65 @@ function manageBts () {
  };
 
  function sorry () {
-    let apologize = prompt("You sincerely apologize and try your best to clean the spill. Happiness drops 5%. Although he is upset, he is understanding that it was just an accident. Thankfully as you guys near the venue, their is a private entrance for the artists. Once you all arrive and park, the other members tease Taehyung as they all get out of the vans. Since its your first day, the members cut you some slack. \n \n Happiness scored ended with H = 80% \n \n Congrats on being BTS's new manager !!!")
+    let apologize = prompt("You sincerely apologize and try your best to clean the spill. Happiness drops 5%. Although he is upset, he is understanding that it was just an accident. Thankfully as you guys near the venue, their is a private entrance for the artists. Once you all arrive and park, the other members tease Taehyung as they all get out of the vans. Since its your first day, the members cut you some slack. \n \n  H = 80% \n \n Congrats on being BTS's new manager !!! \n \n  click `ok ` to restart game ")
 
     if (apologize === "") {
+        startGame ();
+    };
+ };
+
+ function whoCares () {
+    let brushItOff= prompt(" You brush it off and let him know that its just an accident. When he asks you to apologize, you let him know the coffee will just wash out, and that there's nothing to aploogize for. The members are taken back with how rude you are. There overall happiness falls 50%. \n \n H = 35% \n \n They do not want you as their manager, you are terminated immediately \n\n click `ok ` to restart game")
+
+    if ( brushItOff === "") {
+        startGame ();
+    };
+ };
+
+ function priceToPay () {
+    let pay = prompt("You inform them that their lifestyle involves them touring and traveling constantly, and that that is the price of fame. They are upset that you completely dismiss their feelings. Their happiness falls by 50%. \n \n H = 30% \n \n They do not want you as their manager, you are terminated immediately \n\n click `ok ` to restart game ")
+
+    if ( pay === "") {
+        startGame ();
+    };
+ };
+
+ function cheerThemUp () {
+    let cheer = prompt("To cheet them up, you let them know that you will remove some tasks off their busy schedule so they can take that time to rest and talk with friends or family. They are appreciative to have such an understanding manager. There happiness increases by 20%. \n \n  H = 100% \n \n Congrats on being BTS's new manager !!! \n \n  click `ok ` to restart game")
+
+    if ( cheer === "") {
+        startGame ();
+    };
+ };
+
+ function lied () {
+    let liar = prompt("When you get back to the car you hand Namjoon his belongings. When he asks what happened to his phone, you lie and act as if you do not know. Although the items are easily replaceable, the members do not feel comfortable having an untrustworthy person as their manager. Their happiniess falls by 50%. \n \n H = 50% \n \n They do not want you as their manager, you are terminated immediately \n\n click `ok ` to restart game ")
+
+    if ( liar === "") {
+        startGame ();
+    };
+ };
+
+ function truth () {
+    let honesty = prompt("Once you get back in the car, you apologize profusely to Namjoon about accidentally cracking his phone screen. You also let him know that you'll pay to get him a new phone. Namjoon thanks you for your honesty and lets you know that its okay and accidents happen all the time.Although he is understanding, his happiness falls by 20%. You gus eventually arrive to the venue safely.  \n \n  H = 80% \n \n Congrats on being BTS's new manager !!! \n \n  click `ok ` to restart game")
+
+    if ( honesty === "") {
+        startGame ();
+    };
+ };
+
+ function munchies () {
+    let snacks = prompt("You inform the members that due to traffic, it will take awhile for the staff member to meet you all at the venue. And due to this, you asked the staff member to pick up some snacks on the way back. The members are thankful for the staff members generosity. You guys eventaully arrive to the stadium.\n \n  H = 100% \n \n Congrats on being BTS's new manager !!! \n \n  click `ok ` to restart game ")
+
+    if ( snacks === "") {
+        startGame ();
+    };
+ };
+
+ function rushing () {
+    let hurry = prompt("As you are on the phone with the staff member, you inform them to hurry back as soon as possible. You make it clear that if they are not back within a certain time, that their will be consequences. The members are in disbelief with how rude you are. Their happiness falls 50%. \n \n H = 50% \n \n They do not want you as their manager, you are terminated immediately \n\n click `ok ` to restart game ") 
+
+    if ( hurry === "") {
         startGame ();
     };
  };
