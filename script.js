@@ -172,3 +172,16 @@ while (passwordGuess !== "password") {
 
 alert("Argh! You have escaped! I am so lonely, no one ever wants to stay.") */
 
+
+let friends = parseInt(["zoey, tiffany, alex, lizzo, megan, josh, steve"])
+
+// console.log(typeof friends);// number 
+let ticketsAvailable = 5;
+
+for ( i = 0; i <= ticketsAvailable; i++) {
+    if ( i <= friends) {
+        console.log("Congrats")
+    } else {
+        console.log("there are not enough tickets")
+    }
+}
